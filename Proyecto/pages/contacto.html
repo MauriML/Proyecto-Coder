@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Portafolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -16,42 +16,43 @@
         <h2>Mi <span>Portfolio</span></h2>
       </div>
       <ul class="menu">
-        <li><a href="index.html">Home</a></li>
+        <li ><a  href="../index.html">Home</a></li>
         <li><a href="trayectoria.html">Trayectoria</a></li>
-        <li><a class="active" href="proyectos.html">Proyectos</a></li>
-        <li><a href="sobremi.html">Sobre Mi</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a  href="sobremi.html">Sobre Mi</a></li>
+        <li><a class="active" href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header> 
     </div>
     <!--Fin Nav Bar-->
-    <!--Seccion Proyectos-->
-    <section class="proyectos-section">
-    <div class="proyectos">
-      <h1 class="title-pro">Proyectos</h1>
-      <p class="subtitle-pro">Aquí te dejo los proyectos en los que he participado!</p>
-      <div class="container-proyectos">
-        <div class="card" style="width: 18rem;">
-          <img src="imagenes/imagen proyectos 1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 1</h5>
-            <p class="card-text">VitalHealth</p>
-            <a href="https://www.behance.net/gallery/179916373/Diseno-UXUI-VitalHealth" class="btn btn-primary">View project</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="imagenes/imagen proyectos 2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 2</h5>
-            <p class="card-text">Cinemark Hoyts</p>
-            <a href="https://www.behance.net/gallery/189545849/Diseno-UXUI-Avanzado-Coderhouse" class="btn btn-primary">View Proyect</a>
-          </div>
-        </div>
+    <!--Seccion Contacto-->
+    <section class="contact-section">
+      <div class="contact">
+        <h1 class="title-cont">Contacto</h1>
       </div>
-    </div>
+      <div class="contact-form">
+        <div class="contact-info">
+          <h2 class="cont-title">Pongámonos en contacto y hablemos sobre tu proyecto!</h2>
+          <h3 class="main-text">Medios de contacto:</h3>
+          <ul class="info">
+              <li>E-mail: <b>mauriciomarinlucero@gmail.com</b></li>
+              <li>Whatsapp: <b>+54 9 11-3080-8171</b></li>
+            </ul>
+        </div>
+        <form class="form">
+          <h3 class="main-text-form">Envíame un mensaje</h3>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Email">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required placeholder="Como puedo ayudarte?"></textarea>
+          <button class="btn-submit">Enviar</button>
+          </form>
+      </div>
     </section>
-    <!--Fin Seccion Proyectos-->
+    <!--Fin Seccion Contacto-->
     <!-- Footer-->
   <footer class="footer">
     <div class="social-network">
