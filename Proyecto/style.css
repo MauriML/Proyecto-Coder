@@ -399,7 +399,7 @@ label {
     box-shadow: none;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (min-width: 376px) and (max-width: 425px){
     .navbar {
         display: flex;
         flex-direction: column;
